@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="VIUhsGWNbfFCVJHX2bP4" name="第 1 页">
-        <mxGraphModel dx="1627" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="786" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -39,7 +39,7 @@
                         <mxPoint x="20" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="52" value="机值长" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
+                <mxCell id="52" value="机组长、班长" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="570" y="160" width="140" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=0;collapsible=0;marginBottom=0;html=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" parent="52" vertex="1">

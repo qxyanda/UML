@@ -7,85 +7,93 @@
                 <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="3" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="服务_0&lt;br&gt;10.37.1.112" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="240" width="36" height="40" as="geometry"/>
+                <mxCell id="3" value="服务_0&lt;br&gt;10.37.1.112&lt;br&gt;8核@2.2GHz&lt;br&gt;32G&lt;br&gt;1.2T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="4" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="400" y="160" as="targetPoint"/>
+                        <mxPoint x="360" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="文件服务器&lt;br&gt;10.37.1.130" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="240" width="40" height="40" as="geometry"/>
+                <mxCell id="4" value="文件服务器&lt;br&gt;10.37.1.130&lt;br&gt;8核@2.2GHz&lt;br&gt;16G&lt;br&gt;8T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="240" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="负载均衡&lt;br&gt;10.37.1.111" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.proxy_server;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="120" width="40" height="40" as="geometry"/>
+                <mxCell id="5" value="负载均衡&lt;br&gt;10.37.1.111&lt;br&gt;8核@2.2GHz&lt;br&gt;32G&lt;br&gt;1T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.proxy_server;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="40" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="400" y="160" as="targetPoint"/>
+                        <mxPoint x="360" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="数据库&lt;br&gt;10.37.1.113" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="240" width="40" height="40" as="geometry"/>
+                <mxCell id="6" value="数据库&lt;br&gt;10.37.1.113&lt;br&gt;8核@2.2GHz&lt;br&gt;16G&lt;br&gt;8T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="240" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="7" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="缓存服务器&lt;br&gt;10.37.1.114" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="560" y="240" width="36" height="40" as="geometry"/>
+                <mxCell id="7" value="缓存服务器&lt;br&gt;10.37.1.114&lt;br&gt;8核@2.2GHz&lt;br&gt;64G&lt;br&gt;1T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="240" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="8" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="测试服务器&lt;br&gt;10.37.1.140" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="240" width="36" height="40" as="geometry"/>
+                <mxCell id="8" value="测试服务器&lt;br&gt;10.37.1.140&lt;br&gt;8核@2.2GHz&lt;br&gt;16G&lt;br&gt;0.1T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="240" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="200" as="targetPoint"/>
+                        <mxPoint x="120" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="服务_1&lt;br&gt;10.37.1.123" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="320" width="36" height="40" as="geometry"/>
+                    <mxGeometry x="40" y="400" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="340" as="targetPoint"/>
+                        <mxPoint x="120" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="服务_2" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="400" width="36" height="40" as="geometry"/>
+                    <mxGeometry x="40" y="560" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="16" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="服务_0_灾备" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="240" width="36" height="40" as="geometry"/>
+                    <mxGeometry x="160" y="240" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="17" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="340.3333333333335" as="targetPoint"/>
+                        <mxPoint x="120" y="420.3333333333335" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="服务_1_灾备" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="320" width="36" height="40" as="geometry"/>
+                    <mxGeometry x="160" y="400" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="340" as="targetPoint"/>
+                        <mxPoint x="120" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="18" value="服务_2_灾备" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="400" width="36" height="40" as="geometry"/>
+                    <mxGeometry x="160" y="560" width="36" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="400" y="160" as="targetPoint"/>
+                        <mxPoint x="360" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="29" value="数据库_灾备" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="320" width="40" height="40" as="geometry"/>
+                    <mxGeometry x="280" y="400" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.5;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="32" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="海康平台服务器&lt;br&gt;10.37.1.131&lt;br&gt;40核@2.2GHz&lt;br&gt;64G&lt;br&gt;1T" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="240" width="36" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
